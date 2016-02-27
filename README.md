@@ -3,7 +3,7 @@ Used in the exam answer card
 Add dependency
 ```groovy
 dependencies {
-  compile 'com.github.orhanobut:hawk:1.21'
+          compile 'com.lfo.anscard:anscard:v1.0.1'
 }
 ```
 #second
