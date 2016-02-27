@@ -1,13 +1,14 @@
 Used in the exam answer card
 ##first
-##Add dependency
+Add dependency
 ```groovy
 dependencies {
   compile 'com.github.orhanobut:hawk:1.21'
 }
 ```
 #second
-```java activity_main.xml
+-activity_main.xml
+```java 
  <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +29,8 @@ dependencies {
     </ScrollView>
 ```
 #done
-```java MainActivity.class
+-MainActivity.class
+```java 
    @Bind(R.id.ansCardView)
    AnsCardView ansCardView;
    //AnsCardTool is used to  generate any data you want in anscardView
